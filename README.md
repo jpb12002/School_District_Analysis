@@ -9,15 +9,24 @@ Maria, a school disctrict data scientist, requested our help to gather all stand
 
 ## Results
 ### District Summary Differences
-- 
+#### Original District Summary
+![Image of Original District Summary](https://github.com/jpb12002/School_District_Analysis/blob/main/Resources/Original_District_Summary.png)
+
+#### New District Summary
+![Image of New District Summary](https://github.com/jpb12002/School_District_Analysis/blob/main/Resources/New_District_Summary.png)
 
 ### School Summary Differences
+#### Original School Summary
+![Image of Original School Summary](https://github.com/jpb12002/School_District_Analysis/blob/main/Resources/Original_School_Summary.png)
 
+#### New School Summary
+![Image of New School Summary](https://github.com/jpb12002/School_District_Analysis/blob/main/Resources/New_School_Summary.png)
 
 ### Thomas High School Updated Performance
 
 
 ### Math and Reading Scores By Grade
+
 
 
 ### Scores By School Spending
