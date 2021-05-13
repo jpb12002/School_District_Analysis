@@ -45,7 +45,7 @@ Maria, a school disctrict data scientist, requested our help to gather all stand
 #### Math Scores
 ![Image of Math Scores](https://github.com/jpb12002/School_District_Analysis/blob/main/Resources/Math_Scores_By_Grade.png)
 
-- This chart shows the replacement of the ninth grade math scores at Thomas High School with "NaN". However, none of the scores for grades 10-12 at Thomas High School were changed. Similarly, the data for the other schools remained unchanged.
+- This chart shows the replacement of the ninth grade math scores at Thomas High School with "NaN". However, none of the scores for grades 10-12 at Thomas High School were changed. Similarly, the data for the other schools remained unchanged. 
 
 #### Reading Scores
 ![Image of Reading Scores](https://github.com/jpb12002/School_District_Analysis/blob/main/Resources/Reading_Scores_By_Grade.png)
@@ -68,4 +68,10 @@ Maria, a school disctrict data scientist, requested our help to gather all stand
 - Repeat analysis showed no change in outcomes in scores based on the type of school (Charter vs. District).
 
 ## Summary
+Overall, these were the changes in the school district analysis after reading and math scores for the ninth grade at Thomas High School were replaced with "NaN's":
+- The average math scores at Thomas High School decreased, causing a decrease in the district average math scores from 79 to 78.9
+- The percentage of students passing math at Thomas High School decreased, causing a decrease in the percentage of students passing math at the district level from 75% to 74.8%
+- The The percentage of students passing reading at Thomas High School decreased, causing a decrease in the percentage of students passing math at the district level from 86% to 85.7%
+- The percentage of students passing both math and reading at Thomas High School decreased, causing a decrease in the percentage of students passing both subjects at the district level from 65% to 64.9%
 
+Trends for the top performing schools in the district are small to medium sized Charter school that spend less than $630 per student. Of note, the changes in average scores and passing percentages after the removing the flawed scores are not very large, and some metrics did not change at all (i.e., average reading scores). There are a few reasons for why this was the outcome for the new analysis. One reason is there are 461 ninth grade students at Thomas High School and they represent only 1.2% of the total students in the district (39,170). As a result, any changes within this small sample are not weighted heavily in our calculations. Another aspect to consider is the possibility that the flawed scores were within acceptable ranges for the entire data set and did not contain a large amount of outliers. If the ninth grade scores did contain outliers, they would have skewed our original analysis and we would expect larger differences in the outcome metrics after they were removed. 
